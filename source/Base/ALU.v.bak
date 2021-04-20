@@ -1,0 +1,20 @@
+/*module ABC2(a,b,y,s);
+
+	input [31:0] a;
+	input [31:0] b;
+	output reg [31:0] y;
+	input [3:0] s;
+	
+	always @(*)
+		case (s)
+			0 : y = (a & b) ;
+			1 : y = (a | b) ;
+			2 : y = (a + b) ;
+			3 : y = 32'bz ;
+			4 : y = (a & ~b) ;
+			5 : y = (a | ~b) ;
+			6 : y = (a - b) ;
+			7 : y = (a < b) ;
+ 			
+		endcase
+endmodule */
